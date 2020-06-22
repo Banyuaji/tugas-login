@@ -9,7 +9,7 @@
 
 <body>
     <div id="wrapper">
-        <form action="logincontroller.php" method="POST">
+        <form action="login_controller.php" method="POST">
             <h1>Login</h1>
 
             <label for="username">Username</label>
@@ -18,7 +18,7 @@
             <label for="password">Password</label>
             <input type="text" name="password" id="password" placeholder="Masukan password" required="">
 
-            <button type="submit">Login</button>
+            <input type="submit" value="Login">
         </form>
     </div>
 
